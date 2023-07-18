@@ -1,0 +1,118 @@
+/* Color Theme Swatches in Hex */
+.Architecture-1-hex {
+    color: #bfbfbf;
+  }
+  .Architecture-2-hex {
+    color: #8c8c8c;
+  }
+  .Architecture-3-hex {
+    color: #595959;
+  }
+  .Architecture-4-hex {
+    color: #262626;
+  }
+  .Architecture-5-hex {
+    color: #0d0d0d;
+  }
+  
+  /* Color Theme Swatches in RGBA */
+  .Architecture-1-rgba {
+    color: rgba(191, 191, 191, 1);
+  }
+  .Architecture-2-rgba {
+    color: rgba(140, 140, 140, 1);
+  }
+  .Architecture-3-rgba {
+    color: rgba(89, 89, 89, 1);
+  }
+  .Architecture-4-rgba {
+    color: rgba(38, 38, 38, 1);
+  }
+  .Architecture-5-rgba {
+    color: rgba(12, 12, 12, 1);
+  }
+  
+  /* Color Theme Swatches in HSLA */
+  .Architecture-1-hsla {
+    color: hsla(0, 0, 75, 1);
+  }
+  .Architecture-2-hsla {
+    color: hsla(0, 0, 55, 1);
+  }
+  .Architecture-3-hsla {
+    color: hsla(0, 0, 35, 1);
+  }
+  .Architecture-4-hsla {
+    color: hsla(0, 0, 15, 1);
+  }
+  .Architecture-5-hsla {
+    color: hsla(0, 0, 5, 1);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    background-color: #fff;
+    font-family: "Fira Sans", sans-serif;
+    color: #262626;
+    font-size: 1.3rem;
+    line-height: 1.7;
+  }
+  header {
+    text-align: center;
+  }
+  #title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  section h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 1rem 0;
+      text-align: center;
+  }
+  header p {
+    font-weight: 400;
+  }
+  #main {
+    width: 100%;
+    padding: 15px;
+    margin: 30px auto;
+    background-color: #d9d9d9;
+  }
+  
+  figure {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 0;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  #img-caption {
+    margin-inline: 2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .date {
+    margin-right: 0.5rem;
+  }
+  #tribute-info {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .info-list li {
+          margin: 1REM 0;
+  }
+  
